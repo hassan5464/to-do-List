@@ -23,7 +23,7 @@ document.querySelector("#add").addEventListener("click", function(){
 
         }
       }
-      const doneSound = new Audio("/assets/you-win-sequence-2-183949.mp3");
+      const doneSound = new Audio("assets/you-win-sequence-2-183949.mp3");
       let tasks = document.querySelectorAll(".taskName");
       for(let i = 0; i< tasks.length ; i++){
 
