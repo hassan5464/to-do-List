@@ -106,3 +106,36 @@ body{
 .completed{
   text-decoration: line-through;
 }
+
+
+@media (min-width: 320px) and (max-width: 480px){
+  .container{
+    width: 90%;
+  }
+  .newTask input{
+    width: 60%;
+  }
+  .newTask button{
+    width: 30%;
+
+  }
+  #tasks{
+    width: 100%;
+  }
+  }
+  
+@media (min-width: 481px) and (max-width: 768px){
+  .container{
+    width: 70%;
+  }
+  .newTask input{
+    width: 60%;
+  }
+  .newTask button{
+    width: 30%;
+
+  }
+  #tasks{
+    width: 100%;
+  }
+}
